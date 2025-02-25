@@ -5,21 +5,21 @@ print("Bună", userFirstName + "!")
 # Definirea variabilelor
 userAge = 22
 weeklyActivityHours = 70
-maritalStatus = "Celibatar"  
-dailySchedule = "Luni-Vineri: Studii\nSâmbătă-Duminică: Zile de odihna"
+activityStatus = "Student"  
+dailySchedule = "USM Facultatea Matematica si Informatica\n Game Design"
 
 # Afișarea tipurilor de date
 print(type(userAge), type(weeklyActivityHours))  
-print(len(maritalStatus))  
+print(len(activityStatus))  
 
 # Conversia maritalStatus în litere mici
-maritalStatusLower = maritalStatus.lower()  
-print(maritalStatusLower)  
+activityStatusLower = activityStatus.lower()  
+print(activityStatusLower)  
 
 # Extrage o secțiune din dailySchedule
-scheduleSnippet = dailySchedule[0:52]  
+scheduleSnippet = dailySchedule[2:5]  
 print(scheduleSnippet)  
 
 # Mesaj de rămas bun
 farewellMessage = "Succes, {}".format(userFirstName)  
-print(farewellMessage)  
+print(farewellMessage) 
