@@ -12,7 +12,7 @@ dailySchedule = "USM Facultatea Matematica si Informatica\n Game Design"
 print(type(userAge), type(weeklyActivityHours))  
 print(len(activityStatus))  
 
-# Conversia maritalStatus în litere mici
+# Conversia activityStatus în litere mici
 activityStatusLower = activityStatus.lower()  
 print(activityStatusLower)  
 
