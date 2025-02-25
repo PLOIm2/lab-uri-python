@@ -1,5 +1,5 @@
-# Solicitarea prenumelui și afișarea unui mesaj de salut
-userFirstName = input('Introduce prenumele tau: ')  
+# Solicitarea numelui și afișarea unui mesaj de salut
+userFirstName = input('Introduce numele tau: ')  
 print("Bună", userFirstName + "!")
 
 # Definirea variabilelor
